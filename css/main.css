@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1106px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 22px 169px 21px 165px;
+  background-color: aqua;
+}
+.header__navbar {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.header__list {
+  display: flex;
+  gap: 32px;
+}
+.header__link {
+  color: #939CAA;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.header__btn {
+  padding: 14px 39px;
+  background: #FCB72B;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
